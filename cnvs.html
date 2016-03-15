@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>MemeMaker-Simple</title>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <div id="file">
+    <span>Upload</span>
+    <input type="file" class="upload" />
+  </div>  
+  </div>
+  <div id="image-container">
+    <canvas id="daMeme" width="500" height="500"></canvas>
+  <div>
+      <label>Top Line:</label><br/>
+      <input id="topText" type="text"><br/>
+      <label>Bottom Line:</label><br/>
+      <input id="bottomText" type="text"><br/>
+      <a id="download" download="dankNess.png">I'm done. Now download dankness</a>
+    </div>
+  </div>
+  <script type="text/javascript" src="cnvs.js"></script>
+</body>
+</html>
